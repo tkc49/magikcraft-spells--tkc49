@@ -1,8 +1,9 @@
 const magik = magikcraft.io;
 
+count = 0;
 function fireboal() {    
 
-    count = 0;
+    
     fire();
    
 }
