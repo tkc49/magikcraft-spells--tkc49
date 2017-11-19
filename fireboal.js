@@ -2,7 +2,7 @@ const magik = magikcraft.io;
 
 function fireboal() {    
 
-    $count = 0;
+    count = 0;
     fire();
    
 }
@@ -14,8 +14,8 @@ function fire(){
     }, 2000);        
     
 
-    $count++;
-    if($count <= 3){
+    count++;
+    if(count <= 3){
         fire();
     }
 }
