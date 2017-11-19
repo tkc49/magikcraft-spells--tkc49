@@ -2,5 +2,7 @@
 const magik = magikcraft.io;
 
 function feedme(){
-    magik.satio();
+    for(var i=0; i<9; i++){
+        magik.satio();
+    }
 }
