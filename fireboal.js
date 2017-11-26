@@ -1,7 +1,14 @@
 const magik = magikcraft.io;
 
-const count = 0;
 function fireboal() {    
+    
+    magik.doNTimes(
+        function () { 
+            
+            magik.infierno();
+            
+        }, 1000, 300
+    );
     
     magik.infierno();
    
