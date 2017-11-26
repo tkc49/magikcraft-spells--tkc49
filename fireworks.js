@@ -8,7 +8,8 @@ function fireworks() {
             // fireworkをローンチする
             magik.stella(there);
             //magik.iacta(name);
-        }, 1000, 300);
+        }, 1000, 300
+    );
     
     //magik.iacta(name);
     magik.stella(there);
