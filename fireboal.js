@@ -8,6 +8,6 @@ function fireboal() {
         }, 100, 300
     );
     
-    magik.infierno();
+    //magik.infierno();
    
 }
