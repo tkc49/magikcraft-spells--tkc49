@@ -12,5 +12,5 @@ function fireworks() {
     );
     
     //magik.iacta(name);
-    magik.stella(there);
+    // magik.stella(there);
 }
