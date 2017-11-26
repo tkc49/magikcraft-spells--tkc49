@@ -6,7 +6,7 @@ function fireboal() {
         function(){
             magik.dixit('tet');
             magik.infierno();
-        }, 10, 300
+        }, 1, 300
     );
     
     //magik.infierno();
