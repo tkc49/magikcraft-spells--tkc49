@@ -5,7 +5,7 @@ function fireboal() {
     magik.doNTimes(
         function(){
             magik.infierno();
-        }, 1000, 300
+        }, 500, 300
     );
     
     magik.infierno();
