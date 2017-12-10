@@ -18,9 +18,14 @@ function lightning() {
     magik.doNTimes(
         function(){
 
-            there.
+            there.setX(x);
+            there.setY(y);
+            there.setZ(z);
 
             magik.shakti(there);
+
+            x++;
+            z++;
 
             
 
