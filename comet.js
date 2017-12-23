@@ -1,14 +1,12 @@
-const magik = magikcraft.io;
+var magik = magikcraft.io;
 
 function comet(){
-    const Fireball = magik.type('entity.Fireball');
-    const TNT = magik.type("entity.EntityType").PRIMED_TNT;
-    const sender = magik.getSender();
+    var Fireball = Java.type('org.bukkit.entity.Fireball')
     //var arrow = player.getWorld().spawnEntity(sender.location, org.bukkit.entity.EntityType.ZOMBIE);
     
     for (var i = 0; i < 50; i++) {
-        const loc = rndBlock(15,15).location;
-        const arrow = sender.getWorld().spawnEntity(loc, TNT);
+        var loc = rndBlock(15,15).location;
+        var arrow = player.getWorld().spawnEntity(loc, org.bukkit.entity.EntityType.PRIMED_TNT);
         //arrow.setShooter(sender);
         var v = sender.getEyeLocation().getDirection().multiply(2);
         v.setX(0);
@@ -23,15 +21,15 @@ function comet(){
 
 
 function randn_bm() {
-    const u = 1 - Math.random(); // Subtraction to flip [0, 1) to (0, 1].
-    const v = 1 - Math.random();
+    var u = 1 - Math.random(); // Subtraction to flip [0, 1) to (0, 1].
+    var v = 1 - Math.random();
     return Math.sqrt( -2.0 * Math.log( u ) ) * Math.cos( 2.0 * Math.PI * v );
 }
 
 
 function rnorm_unit(count) {
-    let ret = 0;
-    for (let i = 0; i < count; i++) {
+    var ret = 0;
+    for (var i = 0; i < count; i++) {
         ret += Math.random();
     }
     return ret/count;
@@ -46,5 +44,5 @@ function scale(r, from, to) {
     return Math.floor(r*(to - from)+from)
 }
 function rndBlock(radius, height) {
-    return magik.getSender().getLocation().getBlock().getRelative(rnorm(0, radius/5), rnorm(0, radius/5), rnorm(0, radius/5));
+    return sender.location.getBlock().getRelative(rnorm(0, radius/5), rnorm(0, radius/5), rnorm(0, radius/5));
 }
