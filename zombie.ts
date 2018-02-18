@@ -7,8 +7,6 @@ function zombie(target: string){
     const where = magik.aspecto();
     const world = where.getWorld();
 
-    magik.dixit(world);
-
     const zombie = world.spawnEntity(where, aZombie); 
 
     if (target) {
