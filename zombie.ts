@@ -11,6 +11,7 @@ function zombie(target: string){
 
     if (target) {
         zombie.setTarget(magik.getPlugin().getServer().getPlayer(target));
+        magik.dixit("te");
     }
     magik.dixit("Behold!");
 }
