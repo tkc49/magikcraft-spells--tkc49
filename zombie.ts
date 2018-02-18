@@ -7,10 +7,10 @@ function zombie(target: string){
     const where = magik.aspecto();
     const world = where.getWorld();
 
-    const zombie = world.spawnEntity(where, aZombie); 
+    const aaa = world.spawnEntity(where, aZombie); 
 
     if (target) {
-        zombie.setTarget(magik.getPlugin().getServer().getPlayer(target));
+        aaa.setTarget(magik.getPlugin().getServer().getPlayer(target));
         magik.dixit("te");
     }
     magik.dixit("Behold!");
