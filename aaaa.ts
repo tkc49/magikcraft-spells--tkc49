@@ -4,6 +4,8 @@ function aaaa(){
 
 
     const sender = magik.getSender();
+    const EntityType = magik.type("entity.EntityType");
+    const Zombie = EntityType['ZOMBIE'];
 
     
     magik.dixit('bbb');
@@ -12,7 +14,7 @@ function aaaa(){
 
 
         magik.dixit('aaa');
-        var arrow = sender.getWorld().spawnEntity(sender.getEyeLocation(), org.bukkit.entity.EntityType.ZOMBIE);
+        var arrow = sender.getWorld().spawnEntity(sender.getEyeLocation(), Zombie);
 
 
     }
