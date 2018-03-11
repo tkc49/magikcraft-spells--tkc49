@@ -7,6 +7,7 @@ function comet(){
 
     const sender = magik.getSender();
     
+    magik.dixit('aaa');
     
     for (var i = 0; i < 50; i++) {
         // const loc = rndBlock(15,15).location;
