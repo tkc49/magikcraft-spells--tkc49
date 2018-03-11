@@ -14,7 +14,8 @@ function aaaa(){
 
 
         magik.dixit('aaa');
-        var arrow = sender.getWorld().spawnEntity(sender.getEyeLocation(), Zombie);
+        // var arrow = sender.getWorld().spawnEntity(sender.getEyeLocation(), Zombie);
+        var arrow = sender.getWorld().spawnEntity(magik.aspecto(), Zombie);
 
 
     }
