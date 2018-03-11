@@ -19,8 +19,8 @@ function comet(){
         v.setY(0);
         v.setZ(0);
         
-        arrow.setVelocity(v);
-        arrow.setMetadata("ArrowType", new MyMetadata(this, "stick"));    
+        // arrow.setVelocity(v);
+        // arrow.setMetadata("ArrowType", new MyMetadata(this, "stick"));    
     }
         
 }
