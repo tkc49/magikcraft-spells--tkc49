@@ -12,6 +12,8 @@ function comet(){
         // const loc = rndBlock(15,15).location;
         // const arrow = sender.getWorld().spawnEntity(loc, TNT);
 
+        magik.dixit('aaa');
+
         var arrow = player.getWorld().spawnEntity(sender.location, org.bukkit.entity.EntityType.ZOMBIE);
 
 
