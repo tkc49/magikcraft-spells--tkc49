@@ -13,8 +13,8 @@ function comet(){
         var arrow = player.getWorld().spawnEntity(sender.location, org.bukkit.entity.EntityType.ZOMBIE);
 
 
-        arrow.setShooter(sender);
-        var v = sender.getEyeLocation().getDirection().multiply(2);
+        // arrow.setShooter(sender);
+        // var v = sender.getEyeLocation().getDirection().multiply(2);
         // v.setX(0);
         // v.setY(0);
         // v.setZ(0);
