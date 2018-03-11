@@ -24,13 +24,14 @@ function spawnz(typ='ZOMBIE', n = 50, times = 5, baseloc){
         v.setY(scale*2);
         v.setZ(scale*Math.cos(dir));
         mob.setVelocity(v);
+        magik.dixit('aaa');
     }
     
     times -= 1;
     if (times > 0) {
         const task = magik.setTimeout(
             () => {
-                magik.dixit(typ);
+                
                 spawnz(typ, n, times, baseloc);
             }, 
             200
