@@ -10,8 +10,7 @@ function aaaa(){
     for (var i = 0; i < 50; i++) {
 
         magik.dixit('aaa');
-
-        var arrow = magik.player.getWorld().spawnEntity(sender.location, org.bukkit.entity.EntityType.ZOMBIE);
+        var arrow = player.getWorld().spawnEntity(sender.location, org.bukkit.entity.EntityType.ZOMBIE);
 
 
     }
