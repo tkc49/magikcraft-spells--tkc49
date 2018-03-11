@@ -1,8 +1,8 @@
 const magik = magikcraft.io;
 
 function comet(){
-    // const Fireball = magik.type('entity.Fireball');
-    // const TNT = magik.type("entity.EntityType").PRIMED_TNT;
+    const Fireball = magik.type('entity.Fireball');
+    const TNT = magik.type("entity.EntityType").PRIMED_TNT;
 
 
     const sender = magik.getSender();
@@ -15,14 +15,14 @@ function comet(){
         var arrow = player.getWorld().spawnEntity(sender.location, org.bukkit.entity.EntityType.ZOMBIE);
 
 
-        arrow.setShooter(sender);
-        var v = sender.getEyeLocation().getDirection().multiply(2);
-        v.setX(0);
-        v.setY(0);
-        v.setZ(0);
+        // arrow.setShooter(sender);
+        // var v = sender.getEyeLocation().getDirection().multiply(2);
+        // v.setX(0);
+        // v.setY(0);
+        // v.setZ(0);
         
-        arrow.setVelocity(v);
-        arrow.setMetadata("ArrowType", new MyMetadata(this, "stick"));    
+        // arrow.setVelocity(v);
+        // arrow.setMetadata("ArrowType", new MyMetadata(this, "stick"));    
     }
         
 }
