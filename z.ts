@@ -8,6 +8,10 @@ function z(typ='ZOMBIE', n = 50, times = 5, baseloc){
         typ = undefined;
     }
 
- 
+    if (!baseloc) {
+        baseloc = create_spawn_point(magik.aspecto());
+    }
+
+    
        
 }
