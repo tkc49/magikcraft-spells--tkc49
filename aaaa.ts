@@ -11,7 +11,7 @@ function aaaa(){
 
         magik.dixit('aaa');
 
-        var arrow = player.getWorld().spawnEntity(sender.location, org.bukkit.entity.EntityType.ZOMBIE);
+        var arrow = magik.player.getWorld().spawnEntity(sender.location, org.bukkit.entity.EntityType.ZOMBIE);
 
 
     }
