@@ -1,8 +1,8 @@
 const magik = magikcraft.io;
 
 function comet(){
-    // const Fireball = magik.type('entity.Fireball');
-    // const TNT = magik.type("entity.EntityType").PRIMED_TNT;
+    const Fireball = magik.type('entity.Fireball');
+    const TNT = magik.type("entity.EntityType").PRIMED_TNT;
 
 
     const sender = magik.getSender();
