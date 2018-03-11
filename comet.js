@@ -16,13 +16,13 @@ function comet(){
 
 
         arrow.setShooter(sender);
-        // var v = sender.getEyeLocation().getDirection().multiply(2);
-        // v.setX(0);
-        // v.setY(0);
-        // v.setZ(0);
+        var v = sender.getEyeLocation().getDirection().multiply(2);
+        v.setX(0);
+        v.setY(0);
+        v.setZ(0);
         
-        // arrow.setVelocity(v);
-        // arrow.setMetadata("ArrowType", new MyMetadata(this, "stick"));    
+        arrow.setVelocity(v);
+        arrow.setMetadata("ArrowType", new MyMetadata(this, "stick"));    
     }
         
 }
