@@ -1,6 +1,6 @@
 const magik = magikcraft.io;
 
-function w(){
+function aaaa(){
     // const Fireball = magik.type('entity.Fireball');
     // const TNT = magik.type("entity.EntityType").PRIMED_TNT;
 
