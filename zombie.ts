@@ -3,7 +3,7 @@ const magik = magikcraft.io;
 function zombie(target: string){
     const EntityType = magik.type("entity.EntityType");
     const aZombie = EntityType['ZOMBIE'];
-    magik.dixit(aZombie);
+    magik.dixit(EntityType);
     
     const where = magik.aspecto();
     const world = where.getWorld();
