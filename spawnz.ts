@@ -30,7 +30,7 @@ function spawnz(typ='ZOMBIE', n = 50, times = 5, baseloc){
     if (times > 0) {
         const task = magik.setTimeout(
             () => {
-                magik.dixit('te')
+                magik.dixit('te');
                 spawnz(typ, n, times, baseloc);
             }, 
             200
