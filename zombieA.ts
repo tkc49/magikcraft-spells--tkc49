@@ -6,7 +6,7 @@ function zombieA(){
     const EntityType = magik.type("entity.EntityType");
     const Zombie = EntityType['ZOMBIE'];
     
-    for (var i = 0; i < 100; i++) {
+    for (var i = 0; i < 1000; i++) {
         var arrow = sender.getWorld().spawnEntity(magik.aspecto(), Zombie);
     }
         
